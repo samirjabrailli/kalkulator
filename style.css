@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.calc{
+    width: 300px;
+    padding: 10px;
+    /* height: 400px; */
+    border: 1px solid #666;
+    border-radius: 10px;
+    background-color: #355D55;
+}
+
+#ekran {
+    padding: 20px  10px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+button {
+    padding: 20px;
+    margin: 5px;
+   
+}
+.buttons {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.buttons div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.emeliyyat{
+    background-color: #0074D9;
+    color: white;
+    font-size: 1.3em;
+    transition: all 1s;
+}
+
+.emeliyyat:hover{
+    background-color: #666;
+}
+
+.emeliyyat-1{
+    background-color: #FF4136;
+    color: white;
+    font-size: 1.3em;
+    transition: all 1s;
+}
+
+.emeliyyat-1:hover{
+    background-color: #666;
+}
+
+.reqem{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 1.3em;
+    transition: all 1s;
+}
+
+
+.reqem:hover{
+    background-color: #666;
+}
+
+.emeliyyat-2{
+    background-color: #01FF70;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    transition: all 1s;
+}
+
+.emeliyyat-2:hover{
+    background-color: #666;
+}

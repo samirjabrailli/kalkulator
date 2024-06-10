@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulyator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="calc">
+    <div id="ekran"></div>
+    <div class="buttons">
+        <div>
+            <button  class="emeliyyat-1" onclick="clearDisplay()">C</button>
+            <button class="emeliyyat" onclick="calc('/')">/</button>
+            <button class="emeliyyat" onclick="backspace()">X</button>
+            <button class="emeliyyat" onclick="calc('%')">%</button>
+            
+            
+            
+        </div>
+
+        <div>
+            <button class="reqem" onclick="calc('7')">7</button>
+            <button class="reqem" onclick="calc('8')">8</button>
+            <button class="reqem" onclick="calc('9')">9</button>
+            <button class="emeliyyat" onclick="calc('*')">*</button>
+            
+           
+        </div>
+
+        <div>
+            <button class="reqem" onclick="calc('4')">4</button>
+            <button class="reqem" onclick="calc('5')">5</button>
+            <button class="reqem" onclick="calc('6')">6</button>
+            <button class="emeliyyat" onclick="calc('-')">-</button>
+        </div>
+
+        <div>
+            <button class="reqem" onclick="calc('1')">1</button>
+            <button class="reqem" onclick="calc('2')">2</button>
+            <button class="reqem" onclick="calc('3')">3</button>
+            <button class="emeliyyat" onclick="calc('+')">+</button>
+            
+        </div>
+
+        <div>
+            <button class="reqem" onclick="calc('0')">0</button>
+            <button class="emeliyyat" onclick="calc(',')">,</button>
+            <button class="emeliyyat-2" onclick="hesabla()">=</button>
+        </div>
+    </div>
+   </div>
+   <script src="./index.js"> </script>
+   
+  
+</body>
+</html>
+       
